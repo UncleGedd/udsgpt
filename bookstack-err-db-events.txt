@@ -1,0 +1,22 @@
+LAST SEEN   TYPE      REASON                  OBJECT                                     MESSAGE
+70s         Normal    Scheduled               pod/bookstack-bookstack-bc6cb49db-7p4km    Successfully assigned bookstack/bookstack-bookstack-bc6cb49db-7p4km to k3d-uds-server-0
+31s         Normal    Pulling                 pod/bookstack-bookstack-bc6cb49db-7p4km    Pulling image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595"
+71s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-7p4km    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 63ms (63ms including waiting)
+31s         Normal    Created                 pod/bookstack-bookstack-bc6cb49db-7p4km    Created container volume-init
+31s         Normal    Started                 pod/bookstack-bookstack-bc6cb49db-7p4km    Started container volume-init
+70s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-7p4km    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 71ms (71ms including waiting)
+5s          Warning   BackOff                 pod/bookstack-bookstack-bc6cb49db-7p4km    Back-off restarting failed container volume-init in pod bookstack-bookstack-bc6cb49db-7p4km_bookstack(f21e49ec-82df-4b59-ab31-5d3ebd3c1978)
+57s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-7p4km    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 88ms (88ms including waiting)
+31s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-7p4km    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 78ms (78ms including waiting)
+72s         Warning   FailedScheduling        pod/bookstack-bookstack-bc6cb49db-rks5j    running PreBind plugin "VolumeBinding": binding volumes: pod does not exist any more: pod "bookstack-bookstack-bc6cb49db-rks5j" not found
+74s         Normal    SuccessfulCreate        replicaset/bookstack-bookstack-bc6cb49db   Created pod: bookstack-bookstack-bc6cb49db-rks5j
+74s         Normal    SuccessfulCreate        replicaset/bookstack-bookstack-bc6cb49db   Created pod: bookstack-bookstack-bc6cb49db-7p4km
+74s         Normal    ScalingReplicaSet       deployment/bookstack-bookstack             Scaled up replica set bookstack-bookstack-bc6cb49db to 1
+74s         Normal    WaitForFirstConsumer    persistentvolumeclaim/bookstack-storage    waiting for first consumer to be created before binding
+74s         Normal    ExternalProvisioning    persistentvolumeclaim/bookstack-storage    Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+74s         Normal    Provisioning            persistentvolumeclaim/bookstack-storage    External provisioner is provisioning volume for claim "bookstack/bookstack-storage"
+71s         Normal    ProvisioningSucceeded   persistentvolumeclaim/bookstack-storage    Successfully provisioned volume pvc-72d2396c-89e2-434f-8ee0-b4598981e860
+74s         Normal    WaitForFirstConsumer    persistentvolumeclaim/bookstack-uploads    waiting for first consumer to be created before binding
+74s         Normal    ExternalProvisioning    persistentvolumeclaim/bookstack-uploads    Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+74s         Normal    Provisioning            persistentvolumeclaim/bookstack-uploads    External provisioner is provisioning volume for claim "bookstack/bookstack-uploads"
+71s         Normal    ProvisioningSucceeded   persistentvolumeclaim/bookstack-uploads    Successfully provisioned volume pvc-489cde24-4798-4502-8ab9-e386285f9af8

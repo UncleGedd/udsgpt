@@ -1,0 +1,67 @@
+
+
+ ✓ ALLOWED   bookstack/bookstack-bookstack (repeated 1 time)
+
+ ✎ MUTATED   bookstack         
+   ADDED:
+             /spec/securityContext/runAsNonRoot=true
+             /spec/securityContext/runAsUser=1000
+             /spec/securityContext/runAsGroup=1000
+             /spec/containers/0/securityContext={"capabilities":{"drop":["ALL"]}}
+             /spec/initContainers/0/securityContext={"capabilities":{"drop":["ALL"]}}
+             /metadata/annotations={"uds-core.pepr.dev/uds-core-policies":"succeeded","uds-core.pepr.dev/mutated":"[\"require-non-root-user\",\"drop-all-capabilities\"]"}
+
+ ✓ ALLOWED   bookstack/bookstack-mysql-56b8665b6-vvsbm (repeated 11 times)
+
+ ✎ MUTATED   bookstack         
+   ADDED:
+             /spec/securityContext/runAsNonRoot=true
+             /spec/securityContext/runAsUser=1000
+             /spec/securityContext/runAsGroup=1000
+             /spec/containers/1/securityContext={"capabilities":{"drop":["ALL"]}}
+             /spec/initContainers/0/securityContext={"capabilities":{"drop":["ALL"]}}
+             /metadata/annotations/uds-core.pepr.dev~1uds-core-policies="succeeded"
+             /metadata/annotations/uds-core.pepr.dev~1mutated="[\"require-non-root-user\",\"drop-all-capabilities\"]"
+
+ ✓ ALLOWED   bookstack/bookstack-bookstack-bc6cb49db-dgpv5 (repeated 11 times)
+
+ ✓ ALLOWED   bookstack/bookstack-mysql-56b8665b6-gq68v (repeated 11 times)
+
+ ✎ MUTATED   bookstack/bookstack-mysql         
+   ADDED:
+             /metadata/annotations/uds-core.pepr.dev~1uds-core-policies="succeeded"
+
+ ✎ MUTATED   bookstack/bookstack-bookstack         
+   ADDED:
+             /metadata/annotations/uds-core.pepr.dev~1uds-core-policies="succeeded"
+
+ ✓ ALLOWED   bookstack/bookstack-mysql (repeated 1 time)
+
+ ✓ ALLOWED   bookstack/bookstack
+
+ ✎ MUTATED   bookstack         
+   ADDED:
+             /spec/securityContext/runAsNonRoot=true
+             /spec/securityContext/runAsUser=1000
+             /spec/securityContext/runAsGroup=1000
+             /spec/containers/0/securityContext={"capabilities":{"drop":["ALL"]}}
+             /spec/initContainers/0/securityContext={"capabilities":{"drop":["ALL"]}}
+             /metadata/annotations={"uds-core.pepr.dev/uds-core-policies":"succeeded","uds-core.pepr.dev/mutated":"[\"require-non-root-user\",\"drop-all-capabilities\"]"}
+
+ ✓ ALLOWED   bookstack/bookstack-bookstack-bc6cb49db-khz52 (repeated 11 times)
+
+ ✎ MUTATED   bookstack         
+   ADDED:
+             /spec/securityContext/runAsNonRoot=true
+             /spec/securityContext/runAsUser=1000
+             /spec/securityContext/runAsGroup=1000
+             /spec/containers/1/securityContext={"capabilities":{"drop":["ALL"]}}
+             /spec/initContainers/0/securityContext={"capabilities":{"drop":["ALL"]}}
+             /metadata/annotations/uds-core.pepr.dev~1uds-core-policies="succeeded"
+             /metadata/annotations/uds-core.pepr.dev~1mutated="[\"require-non-root-user\",\"drop-all-capabilities\"]"
+
+ ✎ MUTATED   bookstack/bookstack-metrics         
+   ADDED:
+             /spec/endpoints/0/scheme="https"
+             /spec/endpoints/0/tlsConfig={"caFile":"/etc/prom-certs/root-cert.pem","certFile":"/etc/prom-certs/cert-chain.pem","keyFile":"/etc/prom-certs/key.pem","insecureSkipVerify":true}
+             /metadata/annotations={"uds-core.pepr.dev/prometheus":"succeeded"}

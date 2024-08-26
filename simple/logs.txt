@@ -1,0 +1,186 @@
+Logs for kube-system/coredns-576bfc4dc7-vh7p9:
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.override
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.override
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.override
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.override
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.override
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+-----------------------
+Logs for kube-system/helm-install-traefik-crd-k9625:
+-----------------------
+Logs for kube-system/helm-install-traefik-m64j4:
+-----------------------
+Logs for kube-system/local-path-provisioner-6795b5f9d8-hnnn7:
+-----------------------
+Logs for kube-system/metrics-server-557ff575fb-mhwql:
+-----------------------
+Logs for kube-system/svclb-traefik-6742bbc2-djhwd:
+-----------------------
+Logs for kube-system/traefik-5fb479b77-7mbq6:
+-----------------------
+Logs for nginx/nginx-deployment-77d8468669-dmpgf:
+-----------------------
+Logs for nginx/nginx-deployment-77d8468669-kcqc4:
+-----------------------
+Logs for podinfo/podinfo-5cbbf59f6d-qhfm2:
+{"level":"info","ts":"2024-08-22T17:12:37.318Z","caller":"podinfo/main.go:151","msg":"Starting podinfo","version":"6.4.0","revision":"fcf573111bd82600052f99195a67f33d8242bf17","port":"9898"}
+{"level":"info","ts":"2024-08-22T17:12:37.318Z","caller":"api/server.go:225","msg":"Starting HTTP Server.","addr":":9898"}
+-----------------------
+Logs for zarf/agent-hook-55c85c899f-ms49s:
+-----------------------
+Logs for zarf/agent-hook-55c85c899f-ttvrr:
+[30;100m[30;100m  DEBUG  [0m[0m [90m[90m2024-08-22T17:12:33Z  -  ZarfState - {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "zarfAppliance": false,[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "distro": "k3d",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "architecture": "",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "storageClass": "local-path",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "agentTLS": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "ca": "KipzYW5pdGl6ZWQqKg==",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "cert": "KipzYW5pdGl6ZWQqKg==",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "key": "KipzYW5pdGl6ZWQqKg=="[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "gitServer": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-git-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullUsername": "zarf-git-read-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "http://zarf-gitea-http.zarf.svc.cluster.local:3000"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "registryInfo": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-push",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullUsername": "zarf-pull",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "127.0.0.1:31999",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "nodePort": 31999,[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "secret": "**sanitized**"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "artifactServer": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-git-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "http://zarf-gitea-http.zarf.svc.cluster.local:3000/api/packages/zarf-git-user"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  }[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m}[0m[0m[90m[0m
+[90m└ (/home/runner/work/zarf/zarf/src/pkg/cluster/state.go:242)[0m
+[90m[0m  •  [96m[96mWebhook [/mutate/pod - CREATE] - Allowed: true[0m[0m
+[30;100m[30;100m  DEBUG  [0m[0m [90m[90m2024-08-22T17:12:33Z  -  ZarfState - {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "zarfAppliance": false,[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "distro": "k3d",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "architecture": "",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "storageClass": "local-path",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "agentTLS": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "ca": "KipzYW5pdGl6ZWQqKg==",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "cert": "KipzYW5pdGl6ZWQqKg==",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "key": "KipzYW5pdGl6ZWQqKg=="[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "gitServer": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-git-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullUsername": "zarf-git-read-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "http://zarf-gitea-http.zarf.svc.cluster.local:3000"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "registryInfo": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-push",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullUsername": "zarf-pull",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "127.0.0.1:31999",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "nodePort": 31999,[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "secret": "**sanitized**"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "artifactServer": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-git-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "http://zarf-gitea-http.zarf.svc.cluster.local:3000/api/packages/zarf-git-user"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  }[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m}[0m[0m[90m[0m
+[90m└ (/home/runner/work/zarf/zarf/src/pkg/cluster/state.go:242)[0m
+[90m[0m  •  [96m[96mWebhook [/mutate/pod - CREATE] - Allowed: true[0m[0m
+[30;100m[30;100m  DEBUG  [0m[0m [90m[90m2024-08-22T17:12:36Z  -  ZarfState - {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "zarfAppliance": false,[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "distro": "k3d",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "architecture": "",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "storageClass": "local-path",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "agentTLS": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "ca": "KipzYW5pdGl6ZWQqKg==",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "cert": "KipzYW5pdGl6ZWQqKg==",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "key": "KipzYW5pdGl6ZWQqKg=="[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "gitServer": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-git-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullUsername": "zarf-git-read-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "http://zarf-gitea-http.zarf.svc.cluster.local:3000"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "registryInfo": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-push",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullUsername": "zarf-pull",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pullPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "127.0.0.1:31999",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "nodePort": 31999,[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "secret": "**sanitized**"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  },[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  "artifactServer": {[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushUsername": "zarf-git-user",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "pushPassword": "**sanitized**",[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m    "address": "http://zarf-gitea-http.zarf.svc.cluster.local:3000/api/packages/zarf-git-user"[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m  }[0m[0m
+[30;100m[30;100m         [0m[0m [90m[90m}[0m[0m[90m[0m
+[90m└ (/home/runner/work/zarf/zarf/src/pkg/cluster/state.go:242)[0m
+[90m[0m  •  [96m[96mWebhook [/mutate/pod - CREATE] - Allowed: true[0m[0m
+-----------------------
+Logs for zarf/zarf-docker-registry-7fcc8df459-zrbqk:
+10.42.0.1 - - [22/Aug/2024:17:12:02 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:02 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:12 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:12 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:22 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:22 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:32 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:32 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+127.0.0.1 - - [22/Aug/2024:17:12:32 +0000] "GET /v2/ HTTP/1.1" 401 87 "" "zarf go-containerregistry/v0.20.2"
+time="2024-08-22T17:12:32.957464336Z" level=warning msg="error authorizing context: basic authentication challenge for realm "Registry Realm": invalid authorization credential" go.version=go1.20.8 http.request.host="127.0.0.1:63219" http.request.id=bdc5f6e7-b26e-4d32-9766-6c36472142f8 http.request.method=GET http.request.remoteaddr="127.0.0.1:44958" http.request.uri="/v2/" http.request.useragent="zarf go-containerregistry/v0.20.2" 
+time="2024-08-22T17:12:33.026686336Z" level=info msg="authorized request" go.version=go1.20.8 http.request.host="127.0.0.1:63219" http.request.id=f6288f7c-ad0a-40ff-9407-af43d582c55a http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44958" http.request.uri="/v2/library/nginx/manifests/1.14.2-zarf-3793515731" http.request.useragent="zarf go-containerregistry/v0.20.2" vars.name="library/nginx" vars.reference=1.14.2-zarf-3793515731 
+127.0.0.1 - - [22/Aug/2024:17:12:32 +0000] "HEAD /v2/library/nginx/manifests/1.14.2-zarf-3793515731 HTTP/1.1" 200 948 "" "zarf go-containerregistry/v0.20.2"
+time="2024-08-22T17:12:33.02704717Z" level=info msg="response completed" go.version=go1.20.8 http.request.host="127.0.0.1:63219" http.request.id=f6288f7c-ad0a-40ff-9407-af43d582c55a http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44958" http.request.uri="/v2/library/nginx/manifests/1.14.2-zarf-3793515731" http.request.useragent="zarf go-containerregistry/v0.20.2" http.response.contenttype="application/vnd.docker.distribution.manifest.v2+json" http.response.duration=68.700083ms http.response.status=200 http.response.written=948 
+time="2024-08-22T17:12:33.032151211Z" level=warning msg="error authorizing context: basic authentication challenge for realm "Registry Realm": invalid authorization credential" go.version=go1.20.8 http.request.host="127.0.0.1:63219" http.request.id=9193dca0-99e6-4e0c-a296-a7f4a3599d34 http.request.method=GET http.request.remoteaddr="127.0.0.1:44958" http.request.uri="/v2/" http.request.useragent="zarf go-containerregistry/v0.20.2" 
+127.0.0.1 - - [22/Aug/2024:17:12:33 +0000] "GET /v2/ HTTP/1.1" 401 87 "" "zarf go-containerregistry/v0.20.2"
+time="2024-08-22T17:12:33.087995836Z" level=info msg="authorized request" go.version=go1.20.8 http.request.host="127.0.0.1:63219" http.request.id=db92ce6a-f44e-422d-8c65-bba439ffbb7e http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44958" http.request.uri="/v2/library/nginx/manifests/1.14.2" http.request.useragent="zarf go-containerregistry/v0.20.2" vars.name="library/nginx" vars.reference=1.14.2 
+127.0.0.1 - - [22/Aug/2024:17:12:33 +0000] "HEAD /v2/library/nginx/manifests/1.14.2 HTTP/1.1" 200 948 "" "zarf go-containerregistry/v0.20.2"
+time="2024-08-22T17:12:33.088248253Z" level=info msg="response completed" go.version=go1.20.8 http.request.host="127.0.0.1:63219" http.request.id=db92ce6a-f44e-422d-8c65-bba439ffbb7e http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44958" http.request.uri="/v2/library/nginx/manifests/1.14.2" http.request.useragent="zarf go-containerregistry/v0.20.2" http.response.contenttype="application/vnd.docker.distribution.manifest.v2+json" http.response.duration=55.487042ms http.response.status=200 http.response.written=948 
+time="2024-08-22T17:12:36.669515546Z" level=warning msg="error authorizing context: basic authentication challenge for realm "Registry Realm": invalid authorization credential" go.version=go1.20.8 http.request.host="127.0.0.1:63226" http.request.id=e9aa6e70-a982-4995-bb5e-dc84eaf51cc7 http.request.method=GET http.request.remoteaddr="127.0.0.1:44988" http.request.uri="/v2/" http.request.useragent="zarf go-containerregistry/v0.20.2" 
+127.0.0.1 - - [22/Aug/2024:17:12:36 +0000] "GET /v2/ HTTP/1.1" 401 87 "" "zarf go-containerregistry/v0.20.2"
+time="2024-08-22T17:12:36.736378588Z" level=info msg="authorized request" go.version=go1.20.8 http.request.host="127.0.0.1:63226" http.request.id=53ccb01c-0977-4d94-9f24-5e4dc153fb8b http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44988" http.request.uri="/v2/stefanprodan/podinfo/manifests/6.4.0-zarf-2985051089" http.request.useragent="zarf go-containerregistry/v0.20.2" vars.name="stefanprodan/podinfo" vars.reference=6.4.0-zarf-2985051089 
+time="2024-08-22T17:12:36.736728505Z" level=info msg="response completed" go.version=go1.20.8 http.request.host="127.0.0.1:63226" http.request.id=53ccb01c-0977-4d94-9f24-5e4dc153fb8b http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44988" http.request.uri="/v2/stefanprodan/podinfo/manifests/6.4.0-zarf-2985051089" http.request.useragent="zarf go-containerregistry/v0.20.2" http.response.contenttype="application/vnd.oci.image.manifest.v1+json" http.response.duration=66.571167ms http.response.status=200 http.response.written=1625 
+127.0.0.1 - - [22/Aug/2024:17:12:36 +0000] "HEAD /v2/stefanprodan/podinfo/manifests/6.4.0-zarf-2985051089 HTTP/1.1" 200 1625 "" "zarf go-containerregistry/v0.20.2"
+time="2024-08-22T17:12:36.742189963Z" level=warning msg="error authorizing context: basic authentication challenge for realm "Registry Realm": invalid authorization credential" go.version=go1.20.8 http.request.host="127.0.0.1:63226" http.request.id=8e0c0cc7-a0fa-436a-bc9f-24e664d0bfff http.request.method=GET http.request.remoteaddr="127.0.0.1:44988" http.request.uri="/v2/" http.request.useragent="zarf go-containerregistry/v0.20.2" 
+127.0.0.1 - - [22/Aug/2024:17:12:36 +0000] "GET /v2/ HTTP/1.1" 401 87 "" "zarf go-containerregistry/v0.20.2"
+time="2024-08-22T17:12:36.796770171Z" level=info msg="authorized request" go.version=go1.20.8 http.request.host="127.0.0.1:63226" http.request.id=413074eb-1ae1-493d-a7cc-c4e98a5eb3a4 http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44988" http.request.uri="/v2/stefanprodan/podinfo/manifests/6.4.0" http.request.useragent="zarf go-containerregistry/v0.20.2" vars.name="stefanprodan/podinfo" vars.reference=6.4.0 
+time="2024-08-22T17:12:36.797046338Z" level=info msg="response completed" go.version=go1.20.8 http.request.host="127.0.0.1:63226" http.request.id=413074eb-1ae1-493d-a7cc-c4e98a5eb3a4 http.request.method=HEAD http.request.remoteaddr="127.0.0.1:44988" http.request.uri="/v2/stefanprodan/podinfo/manifests/6.4.0" http.request.useragent="zarf go-containerregistry/v0.20.2" http.response.contenttype="application/vnd.oci.image.manifest.v1+json" http.response.duration=54.264375ms http.response.status=200 http.response.written=1625 
+127.0.0.1 - - [22/Aug/2024:17:12:36 +0000] "HEAD /v2/stefanprodan/podinfo/manifests/6.4.0 HTTP/1.1" 200 1625 "" "zarf go-containerregistry/v0.20.2"
+10.42.0.1 - - [22/Aug/2024:17:12:42 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:42 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:52 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:12:52 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:02 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:02 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:12 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:12 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:22 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:22 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:32 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:32 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:42 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:42 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:52 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+10.42.0.1 - - [22/Aug/2024:17:13:52 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.30"
+-----------------------
+Logs for zarf/zarf-gitea-5f7f4d595b-lnf5c:
+-----------------------

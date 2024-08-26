@@ -1,0 +1,18 @@
+NAMESPACE	LAST SEEN	TYPE	REASON	OBJECT	MESSAGE
+nginx       2m28s       Normal   Scheduled           pod/nginx-deployment-77d8468669-kcqc4    Successfully assigned nginx/nginx-deployment-77d8468669-kcqc4 to k3d-k3s-default-server-0
+podinfo     2m25s       Normal   Scheduled           pod/podinfo-5cbbf59f6d-qhfm2             Successfully assigned podinfo/podinfo-5cbbf59f6d-qhfm2 to k3d-k3s-default-server-0
+nginx       2m28s       Normal   Scheduled           pod/nginx-deployment-77d8468669-dmpgf    Successfully assigned nginx/nginx-deployment-77d8468669-dmpgf to k3d-k3s-default-server-0
+nginx       2m29s       Normal   SuccessfulCreate    replicaset/nginx-deployment-77d8468669   Created pod: nginx-deployment-77d8468669-kcqc4
+nginx       2m29s       Normal   ScalingReplicaSet   deployment/nginx-deployment              Scaled up replica set nginx-deployment-77d8468669 to 2
+nginx       2m29s       Normal   Pulled              pod/nginx-deployment-77d8468669-kcqc4    Container image "127.0.0.1:31999/library/nginx:1.14.2-zarf-3793515731" already present on machine
+nginx       2m29s       Normal   Created             pod/nginx-deployment-77d8468669-kcqc4    Created container nginx
+nginx       2m29s       Normal   Started             pod/nginx-deployment-77d8468669-kcqc4    Started container nginx
+nginx       2m29s       Normal   Created             pod/nginx-deployment-77d8468669-dmpgf    Created container nginx
+nginx       2m29s       Normal   SuccessfulCreate    replicaset/nginx-deployment-77d8468669   Created pod: nginx-deployment-77d8468669-dmpgf
+nginx       2m29s       Normal   Started             pod/nginx-deployment-77d8468669-dmpgf    Started container nginx
+nginx       2m29s       Normal   Pulled              pod/nginx-deployment-77d8468669-dmpgf    Container image "127.0.0.1:31999/library/nginx:1.14.2-zarf-3793515731" already present on machine
+podinfo     2m26s       Normal   SuccessfulCreate    replicaset/podinfo-5cbbf59f6d            Created pod: podinfo-5cbbf59f6d-qhfm2
+podinfo     2m26s       Normal   ScalingReplicaSet   deployment/podinfo                       Scaled up replica set podinfo-5cbbf59f6d to 1
+podinfo     2m25s       Normal   Pulled              pod/podinfo-5cbbf59f6d-qhfm2             Container image "127.0.0.1:31999/stefanprodan/podinfo:6.4.0-zarf-2985051089" already present on machine
+podinfo     2m25s       Normal   Created             pod/podinfo-5cbbf59f6d-qhfm2             Created container podinfo
+podinfo     2m25s       Normal   Started             pod/podinfo-5cbbf59f6d-qhfm2             Started container podinfo

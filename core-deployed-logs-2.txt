@@ -1,0 +1,1152 @@
+Logs for authservice/authservice-7bd669d58d-xk4w5:
+-----------------------
+Logs for grafana/grafana-694646fffb-9h6zf:
+-----------------------
+Logs for istio-admin-gateway/admin-ingressgateway-65c568569f-kt4mx:
+-----------------------
+Logs for istio-passthrough-gateway/passthrough-ingressgateway-77f78c89b5-fm7t4:
+-----------------------
+Logs for istio-system/istiod-84cf89cbcb-8ct4b:
+2024-08-22T18:33:51.538210Z	info	ads	Push debounce stable[116] 1 for config ServiceEntry/zarf/zarf-docker-registry.zarf.svc.cluster.local: 100.69025ms since last change, 100.69025ms since last push, full=false
+2024-08-22T18:33:51.538324Z	info	ads	XDS: Incremental Pushing ConnectedEndpoints:29 Version:2024-08-22T18:32:36Z/65
+2024-08-22T18:33:51.662200Z	info	ads	Push debounce stable[117] 1 for config ServiceEntry/zarf/zarf-docker-registry.zarf.svc.cluster.local: 100.726876ms since last change, 100.726834ms since last push, full=false
+2024-08-22T18:33:51.662257Z	info	ads	XDS: Incremental Pushing ConnectedEndpoints:29 Version:2024-08-22T18:32:36Z/65
+2024-08-22T18:34:51.621175Z	info	ads	Push debounce stable[118] 1 for config ServiceEntry/zarf/zarf-docker-registry.zarf.svc.cluster.local: 100.177667ms since last change, 100.177625ms since last push, full=false
+2024-08-22T18:34:51.621513Z	info	ads	XDS: Incremental Pushing ConnectedEndpoints:29 Version:2024-08-22T18:32:36Z/65
+2024-08-22T18:34:51.780928Z	info	ads	Push debounce stable[119] 1 for config ServiceEntry/zarf/zarf-docker-registry.zarf.svc.cluster.local: 100.901625ms since last change, 100.901625ms since last push, full=false
+2024-08-22T18:34:51.780971Z	info	ads	XDS: Incremental Pushing ConnectedEndpoints:29 Version:2024-08-22T18:32:36Z/65
+-----------------------
+Logs for istio-tenant-gateway/tenant-ingressgateway-79d5d77d67-28nc2:
+-----------------------
+Logs for keycloak/keycloak-0:
+{"timestamp":"2024-08-22T18:33:04.001949461Z","sequence":398607,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:04.002168628Z","sequence":398608,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:04 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:04.11237817Z","sequence":398609,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:04.112472211Z","sequence":398610,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:04.112687586Z","sequence":398611,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:04.112724461Z","sequence":398612,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:04.112793086Z","sequence":398613,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:09.113390756Z","sequence":398614,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:09.113494214Z","sequence":398615,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:09.113668131Z","sequence":398616,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:09.113703881Z","sequence":398617,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:09.113768464Z","sequence":398618,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:13.993966008Z","sequence":398619,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:13.99411005Z","sequence":398620,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:13 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:13.994309466Z","sequence":398621,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:13.99438355Z","sequence":398622,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:13 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:14.11435455Z","sequence":398623,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:14.114430591Z","sequence":398624,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:14.114623008Z","sequence":398625,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:14.114691758Z","sequence":398626,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:14.114770383Z","sequence":398627,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:16.392741342Z","sequence":398628,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to https://10.42.0.28/metrics","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:16.392944717Z","sequence":398629,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:16 +0000] \"GET /metrics HTTP/1.1\" 200 28482","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:19.115783302Z","sequence":398630,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:19.11603876Z","sequence":398631,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:19.11669051Z","sequence":398632,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:19.116757219Z","sequence":398633,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:19.116829969Z","sequence":398634,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:23.995564554Z","sequence":398635,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:23.995705888Z","sequence":398636,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:23 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:24.116368471Z","sequence":398637,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:24.116470388Z","sequence":398638,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:24.116843179Z","sequence":398639,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:24.116947971Z","sequence":398640,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:24.117026638Z","sequence":398641,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:28.996047376Z","sequence":398642,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:28.996251209Z","sequence":398643,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:28 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:29.116315751Z","sequence":398644,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:29.116425084Z","sequence":398645,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:29.116659667Z","sequence":398646,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:29.116700709Z","sequence":398647,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:29.116738751Z","sequence":398648,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:33.998642461Z","sequence":398649,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:33.998876878Z","sequence":398650,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:33 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:34.117378753Z","sequence":398651,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:34.117483628Z","sequence":398652,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:34.117684795Z","sequence":398653,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:34.117738586Z","sequence":398654,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:34.117776878Z","sequence":398655,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:39.118510922Z","sequence":398656,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:39.118613422Z","sequence":398657,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:39.118747214Z","sequence":398658,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:39.118780172Z","sequence":398659,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:39.118800672Z","sequence":398660,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:43.9973188Z","sequence":398661,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:43.997527175Z","sequence":398662,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:43 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:43.997616258Z","sequence":398663,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:43.997689383Z","sequence":398664,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:43 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:44.119390633Z","sequence":398665,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:44.119479966Z","sequence":398666,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:44.119679383Z","sequence":398667,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:44.119714883Z","sequence":398668,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:44.119752425Z","sequence":398669,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:46.397219217Z","sequence":398670,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to https://10.42.0.28/metrics","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:46.397427301Z","sequence":398671,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:46 +0000] \"GET /metrics HTTP/1.1\" 200 28487","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:49.120411219Z","sequence":398672,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:49.12048976Z","sequence":398673,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:49.120634135Z","sequence":398674,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:49.12066051Z","sequence":398675,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:49.120690094Z","sequence":398676,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:53.994341846Z","sequence":398677,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:53.994464179Z","sequence":398678,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:53 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:54.121489138Z","sequence":398679,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:54.121550721Z","sequence":398680,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:54.121743971Z","sequence":398681,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.models.sessions.infinispan.changes.sessions.PersisterLastSessionRefreshStore","level":"DEBUG","message":"Updating 0 userSessions with lastSessionRefresh: 1724351574","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:54.121792763Z","sequence":398682,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:54.121805013Z","sequence":398683,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:54.121835721Z","sequence":398684,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:58.998598376Z","sequence":398685,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:58.998804959Z","sequence":398686,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:33:58 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:59.123266542Z","sequence":398687,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:59.123336501Z","sequence":398688,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:59.123509834Z","sequence":398689,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:59.123537751Z","sequence":398690,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:33:59.123573376Z","sequence":398691,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:04.015197795Z","sequence":398692,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:04.015412461Z","sequence":398693,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:04 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:04.124261211Z","sequence":398694,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:04.124318628Z","sequence":398695,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:04.124430878Z","sequence":398696,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:04.124455336Z","sequence":398697,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:04.124486711Z","sequence":398698,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:09.125562256Z","sequence":398699,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:09.125656547Z","sequence":398700,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:09.125861089Z","sequence":398701,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:09.125884172Z","sequence":398702,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:09.125915381Z","sequence":398703,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.00068855Z","sequence":398704,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.000930008Z","sequence":398705,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:14 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.001356383Z","sequence":398706,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.001449716Z","sequence":398707,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:14 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.126623925Z","sequence":398708,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.126794008Z","sequence":398709,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.127113216Z","sequence":398710,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.1271408Z","sequence":398711,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:14.127206633Z","sequence":398712,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:16.394453051Z","sequence":398713,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to https://10.42.0.28/metrics","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:16.394706509Z","sequence":398714,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:16 +0000] \"GET /metrics HTTP/1.1\" 200 28476","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:19.126416594Z","sequence":398715,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:19.126488969Z","sequence":398716,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:19.12660576Z","sequence":398717,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:19.126629969Z","sequence":398718,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:19.126661302Z","sequence":398719,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:23.995920054Z","sequence":398720,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:23.996039679Z","sequence":398721,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:23 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:24.127425846Z","sequence":398722,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:24.127515763Z","sequence":398723,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:24.127660471Z","sequence":398724,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:24.127687846Z","sequence":398725,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:24.127719638Z","sequence":398726,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:28.996190959Z","sequence":398727,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:28.996484001Z","sequence":398728,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:28 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:29.128363584Z","sequence":398729,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:29.128450667Z","sequence":398730,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:29.128843126Z","sequence":398731,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:29.128885417Z","sequence":398732,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:29.128935876Z","sequence":398733,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:33.996399711Z","sequence":398734,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:33.996542128Z","sequence":398735,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:33 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:34.130227961Z","sequence":398736,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:34.130366628Z","sequence":398737,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:34.130557503Z","sequence":398738,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:34.130590878Z","sequence":398739,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:34.130622045Z","sequence":398740,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:39.131168339Z","sequence":398741,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:39.131261089Z","sequence":398742,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:39.131420464Z","sequence":398743,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:39.131440631Z","sequence":398744,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:39.131467631Z","sequence":398745,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:43.994108175Z","sequence":398746,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:43.994200591Z","sequence":398747,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:43 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:43.9944038Z","sequence":398748,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:43.994450341Z","sequence":398749,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:43 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:44.13207655Z","sequence":398750,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:44.132154425Z","sequence":398751,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:44.132260425Z","sequence":398752,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:44.132285341Z","sequence":398753,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:44.132311133Z","sequence":398754,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:46.389590676Z","sequence":398755,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to https://10.42.0.28/metrics","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:46.389783384Z","sequence":398756,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:46 +0000] \"GET /metrics HTTP/1.1\" 200 28488","threadName":"executor-thread-1","threadId":18,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:49.132666385Z","sequence":398757,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:49.132745802Z","sequence":398758,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:49.132906302Z","sequence":398759,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:49.132933802Z","sequence":398760,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:49.132964469Z","sequence":398761,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:53.996082888Z","sequence":398762,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/ready","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:53.996214179Z","sequence":398763,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:53 +0000] \"GET /health/ready HTTP/1.1\" 200 164","threadName":"vert.x-eventloop-thread-1","threadId":37,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:54.133158429Z","sequence":398764,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:54.133264554Z","sequence":398765,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:54.133543096Z","sequence":398766,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.models.sessions.infinispan.changes.sessions.PersisterLastSessionRefreshStore","level":"DEBUG","message":"Updating 0 userSessions with lastSessionRefresh: 1724351634","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:54.133627929Z","sequence":398767,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:54.133644138Z","sequence":398768,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:54.133702846Z","sequence":398769,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:58.999494459Z","sequence":398770,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.vertx.http.runtime.ForwardedParser","level":"DEBUG","message":"Recalculated absoluteURI to http://10.42.0.28:8080/health/live","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:58.999746584Z","sequence":398771,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus.http.access-log","level":"INFO","message":"127.0.0.6 - - [22/Aug/2024:18:34:58 +0000] \"GET /health/live HTTP/1.1\" 200 45","threadName":"vert.x-eventloop-thread-0","threadId":36,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:59.133841334Z","sequence":398772,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"new JtaTransactionWrapper","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:59.133913459Z","sequence":398773,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"was existing? false","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:59.134058459Z","sequence":398774,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.services.scheduled.ScheduledTaskRunner","level":"DEBUG","message":"Executed scheduled task PropagateLastSessionRefreshTask","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:59.134095626Z","sequence":398775,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper  commit","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+{"timestamp":"2024-08-22T18:34:59.134126501Z","sequence":398776,"loggerClassName":"org.jboss.logging.Logger","loggerName":"org.keycloak.transaction.JtaTransactionWrapper","level":"DEBUG","message":"JtaTransactionWrapper end","threadName":"Timer-0","threadId":14,"mdc":{},"ndc":"","hostName":"keycloak-0","processName":"QuarkusEntryPoint","processId":1}
+-----------------------
+Logs for kube-system/coredns-5599cd45b7-ss6vc:
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+[WARNING] No files matching import glob pattern: /etc/coredns/custom/*.server
+-----------------------
+Logs for loki/loki-backend-0:
+level=info ts=2024-08-22T18:33:53.757486638Z caller=table_manager.go:228 index-store=boltdb-shipper-2022-01-11 msg="syncing tables"
+level=info ts=2024-08-22T18:33:53.757668846Z caller=table_manager.go:271 index-store=boltdb-shipper-2022-01-11 msg="query readiness setup completed" duration=39.292µs distinct_users_len=0 distinct_users=
+level=info ts=2024-08-22T18:34:53.774255054Z caller=memberlist_client.go:495 msg="re-joined memberlist cluster" reached_nodes=3
+-----------------------
+Logs for loki/loki-gateway-bb48544c6-q5pfm:
+127.0.0.6 - - [22/Aug/2024:18:33:01 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:02 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:03 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:04 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:05 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:06 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:07 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:08 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:09 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:10 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:11 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:12 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:13 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:15 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:16 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:17 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:17 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:18 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:19 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:20 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:22 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:23 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:24 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:25 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:26 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:27 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:27 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:28 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:30 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:31 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:32 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:33 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:34 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:35 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:37 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:37 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:38 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:39 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:40 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:41 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:43 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:44 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:45 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:46 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:47 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:48 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:49 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:50 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:51 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:52 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:53 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:54 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:56 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:57 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:57 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:58 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:33:59 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:00 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:02 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:03 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:04 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:05 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:06 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:07 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:07 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:08 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:10 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:11 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:12 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:13 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:14 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:16 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:17 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:17 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:18 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:19 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:20 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:22 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:23 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:24 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:25 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:26 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:27 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:28 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:29 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:30 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:31 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:32 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:33 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:35 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:36 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:37 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:37 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:38 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:39 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:40 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:42 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:43 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:44 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:45 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:46 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:47 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:48 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:49 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:50 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:51 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:52 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:53 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:55 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:56 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:57 +0000]  200 "GET / HTTP/1.1" 2 "-" "kube-probe/1.29" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:57 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:58 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+127.0.0.6 - - [22/Aug/2024:18:34:59 +0000]  204 "POST /loki/api/v1/push HTTP/1.1" 0 "-" "promtail/release-3.1.x-89fe788" "-"
+-----------------------
+Logs for loki/loki-read-5cfc7c96c9-qqsbv:
+level=info ts=2024-08-22T18:34:59.276692709Z caller=memberlist_client.go:495 msg="re-joined memberlist cluster" reached_nodes=2
+-----------------------
+Logs for loki/loki-write-0:
+level=info ts=2024-08-22T18:33:53.753964388Z caller=table_manager.go:171 index-store=boltdb-shipper-2022-01-11 msg="handing over indexes to shipper"
+level=info ts=2024-08-22T18:33:53.753993263Z caller=table_manager.go:136 index-store=boltdb-shipper-2022-01-11 msg="uploading tables"
+level=info ts=2024-08-22T18:33:53.762068888Z caller=checkpoint.go:611 msg="starting checkpoint"
+level=info ts=2024-08-22T18:33:53.762682346Z caller=checkpoint.go:336 msg="attempting checkpoint for" dir=/var/loki/wal/checkpoint.000000
+level=info ts=2024-08-22T18:34:53.754181763Z caller=table_manager.go:171 index-store=boltdb-shipper-2022-01-11 msg="handing over indexes to shipper"
+level=info ts=2024-08-22T18:34:53.754380513Z caller=table_manager.go:136 index-store=boltdb-shipper-2022-01-11 msg="uploading tables"
+level=info ts=2024-08-22T18:34:53.773386971Z caller=memberlist_client.go:495 msg="re-joined memberlist cluster" reached_nodes=3
+-----------------------
+Logs for metrics-server/metrics-server-69584cc865-xj8s5:
+-----------------------
+Logs for monitoring/alertmanager-kube-prometheus-stack-alertmanager-0:
+-----------------------
+Logs for monitoring/kube-prometheus-stack-kube-state-metrics-65594f9476-fdtvs:
+-----------------------
+Logs for monitoring/kube-prometheus-stack-operator-6db8586956-rctj4:
+-----------------------
+Logs for monitoring/kube-prometheus-stack-prometheus-node-exporter-qzdd7:
+-----------------------
+Logs for monitoring/prometheus-kube-prometheus-stack-prometheus-0:
+-----------------------
+Logs for neuvector/neuvector-controller-pod-7ddbfc9f74-8ghxl:
+-----------------------
+Logs for neuvector/neuvector-controller-pod-7ddbfc9f74-pb9wq:
+-----------------------
+Logs for neuvector/neuvector-controller-pod-7ddbfc9f74-x2shb:
+-----------------------
+Logs for neuvector/neuvector-enforcer-pod-lj8mb:
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth64924a87 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:33:51.552|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:33:52.556|ERRO|AGT|cluster.putBinary: Failed to put key - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused key=object/host/agent/k3d-uds-server-0:
+2024-08-22T18:33:52.556|ERRO|AGT|main.putHostIfInfo: - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth64924a87 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:33:52.558|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:33:52.559|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:33:53.561|ERRO|AGT|cluster.putBinary: Failed to put key - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused key=object/host/agent/k3d-uds-server-0:
+2024-08-22T18:33:53.561|ERRO|AGT|main.putHostIfInfo: - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:33:53.569|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth64924a87 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:33:53.57 |INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth64924a87 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:33:53.575|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:33:53.58 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth64924a87 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:33:53.581|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:33:54.584|ERRO|AGT|cluster.putBinary: Failed to put key - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused key=object/host/agent/k3d-uds-server-0:
+2024-08-22T18:33:54.584|ERRO|AGT|main.putHostIfInfo: - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-08-22T18:34:51.667|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:34:51.668|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:34:52.67 |ERRO|AGT|cluster.putBinary: Failed to put key - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused key=object/host/agent/k3d-uds-server-0:
+2024-08-22T18:34:52.67 |ERRO|AGT|main.putHostIfInfo: - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:34:52.676|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:34:52.677|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:34:53.681|ERRO|AGT|cluster.putBinary: Failed to put key - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused key=object/host/agent/k3d-uds-server-0:
+2024-08-22T18:34:53.681|ERRO|AGT|main.putHostIfInfo: - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:34:53.69 |INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:34:53.691|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:34:53.697|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:34:54.701|ERRO|AGT|cluster.putBinary: Failed to put key - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused key=object/host/agent/k3d-uds-server-0:
+2024-08-22T18:34:54.702|ERRO|AGT|main.putHostIfInfo: - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-08-22T18:34:54.712|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=flannel.1 mtu=1450 type=vxlan
+2024-08-22T18:34:54.712|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1dc8505 mtu=1450 type=veth
+2024-08-22T18:34:54.712|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=eth0 mtu=1500 type=veth
+2024-08-22T18:34:54.712|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=gretap0 mtu=1462 type=gretap
+2024-08-22T18:34:54.712|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth05532190 mtu=1450 type=veth
+2024-08-22T18:34:54.712|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth84003cf5 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcc073da7 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8dc608c8 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb88435fa mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffb5ff50 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5a3665a3 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth0fff5e20 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=0 link=gre0 mtu=1476 type=gre
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc1e6551c mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vetha186ec79 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb3950d7d mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=0 link=tunl0 mtu=1480 type=ipip
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=broadcast|multicast link=erspan0 mtu=1450 type=erspan
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethffbb02d7 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethbef5a0d5 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth3f45a72f mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth74e23014 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc0709d60 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethb657a38a mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8f3e15fa mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth2d9409ab mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6_vti0 mtu=1428 type=vti6
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe783371d mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth037b9b69 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth43586f7f mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth5895040e mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth581df745 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd93fd416 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth49200bf4 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethe41cf2bb mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethea981b42 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6f61dee8 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethcaaa93fa mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth260f25a7 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6gre0 mtu=1448 type=ip6gre
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=cni0 mtu=1450 type=bridge
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: Switch - ipnet={IP:10.42.0.1 Mask:ffffff00} link=cni0
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|loopback link=lo mtu=65536 type=device
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=0 link=sit0 mtu=1480 type=sit
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip6tnl0 mtu=1452 type=ip6tnl
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth77dde09b mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth6c4ee5c0 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc7539ef7 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth8da12725 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=0 link=ip_vti0 mtu=1480 type=vti
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth579910a2 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=veth53361b29 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethd1de3b20 mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: link - flags=up|broadcast|multicast link=vethc572e22c mtu=1450 type=veth
+2024-08-22T18:34:54.713|INFO|AGT|main.parseHostAddrs: - ciliumCNI=false maxMTU=1500
+2024-08-22T18:34:55.717|ERRO|AGT|cluster.putBinary: Failed to put key - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused key=object/host/agent/k3d-uds-server-0:
+2024-08-22T18:34:55.717|ERRO|AGT|main.putHostIfInfo: - error=Put "http://127.0.0.1:8500/v1/kv/object/host/agent/k3d-uds-server-0:": dial tcp 127.0.0.1:8500: connect: connection refused
+-----------------------
+Logs for neuvector/neuvector-manager-pod-766f4b86f6-74kwz:
+-----------------------
+Logs for neuvector/neuvector-scanner-pod-64d5b96b4d-fn9sz:
+-----------------------
+Logs for neuvector/neuvector-scanner-pod-64d5b96b4d-j7pnx:
+-----------------------
+Logs for neuvector/neuvector-scanner-pod-64d5b96b4d-l2h8p:
+-----------------------
+Logs for pepr-system/pepr-uds-core-65ff788585-578cp:
+{"level":30,"time":1724351589072,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351589073,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351592403,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351599076,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351599077,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351609076,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351609076,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351619071,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351619072,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351622402,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351629077,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351629078,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351639075,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351639076,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351649073,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351649074,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351652408,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/metrics","status":200,"duration":"6 ms"}
+{"level":30,"time":1724351659075,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351659076,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351669076,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351669077,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351679072,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351679073,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351682402,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351689072,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351689073,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351699075,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351699076,"pid":16,"hostname":"pepr-uds-core-65ff788585-578cp","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+-----------------------
+Logs for pepr-system/pepr-uds-core-65ff788585-ltl4h:
+{"level":30,"time":1724351589063,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351589063,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351598450,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351599070,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351599072,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351609071,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351609073,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351619064,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351619064,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351628448,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/metrics","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351629071,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351629072,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351639070,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351639071,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351649066,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351649067,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351658451,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351659069,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351659070,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351669067,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351669068,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351679064,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351679065,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351688450,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/metrics","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351689065,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351689066,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351699069,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351699071,"pid":16,"hostname":"pepr-uds-core-65ff788585-ltl4h","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+-----------------------
+Logs for pepr-system/pepr-uds-core-watcher-76956c5c56-sbtcd:
+{"level":30,"time":1724351588694,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351589061,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351589061,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351599071,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351599072,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351609070,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351609072,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351618697,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/metrics","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351619060,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351619061,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351629070,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351629072,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351639070,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351639071,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351648694,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351649062,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351649063,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351659069,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351659070,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351669066,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351669068,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351678700,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/metrics","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351679063,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"2 ms"}
+{"level":30,"time":1724351679063,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351689065,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351689066,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+{"level":30,"time":1724351699067,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"1 ms"}
+{"level":30,"time":1724351699068,"pid":16,"hostname":"pepr-uds-core-watcher-76956c5c56-sbtcd","method":"GET","url":"/healthz","status":200,"duration":"0 ms"}
+-----------------------
+Logs for promtail/promtail-mp76q:
+level=info ts=2024-08-22T18:33:05.229442712Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:33:05.22954467Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:33:15.225652717Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:33:15.22570605Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:33:25.225004722Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:33:25.225099138Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:33:35.226405504Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:33:35.226480837Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:33:45.226702008Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:33:45.226806633Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+ts=2024-08-22T18:33:52.457391845Z caller=log.go:168 level=info msg="Re-opening moved/deleted file /var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log ..."
+ts=2024-08-22T18:33:52.457567804Z caller=log.go:168 level=info msg="Waiting for /var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log to appear..."
+level=info ts=2024-08-22T18:33:55.230262597Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:33:55.230303097Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:33:55.324256222Z caller=filetarget.go:362 msg="removing directory from watcher" directory=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry
+level=info ts=2024-08-22T18:33:55.324287472Z caller=tailer.go:207 component=tailer msg="skipping update of position for a file which does not currently exist" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log
+level=info ts=2024-08-22T18:33:55.32431868Z caller=tailer.go:207 component=tailer msg="skipping update of position for a file which does not currently exist" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log
+level=info ts=2024-08-22T18:33:55.32443718Z caller=tailer.go:164 component=tailer msg="tail routine: tail channel closed, stopping tailer" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log reason=null
+level=info ts=2024-08-22T18:33:55.324493222Z caller=tailer.go:155 component=tailer msg="tail routine: exited" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log
+level=info ts=2024-08-22T18:33:55.324507138Z caller=tailer.go:118 component=tailer msg="position timer: exited" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log
+level=info ts=2024-08-22T18:33:55.324524888Z caller=tailer.go:245 component=tailer msg="stopped tailing file" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-hp8nw_4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/0.log
+level=info ts=2024-08-22T18:33:55.328573722Z caller=filetargetmanager.go:408 msg="Removing target" key="/var/log/pods/*4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/*.log:{app=\"docker-registry\", container=\"docker-registry\", job=\"zarf/docker-registry\", namespace=\"zarf\", node_name=\"k3d-uds-server-0\", pod=\"zarf-docker-registry-5bdb47fb66-hp8nw\"}"
+level=info ts=2024-08-22T18:33:55.328600388Z caller=filetarget.go:201 msg="filetarget: watcher closed, tailer stopped, positions saved" path=/var/log/pods/*4a1ea676-19e2-4561-ad18-f60727dc0047/docker-registry/*.log
+level=info ts=2024-08-22T18:34:05.226014129Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:34:05.226184254Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:34:15.227845633Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:34:15.227901217Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:34:25.227501555Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:34:25.227531847Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:34:35.225494795Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:34:35.225534212Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:34:45.225442842Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:34:45.225548092Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+ts=2024-08-22T18:34:51.97705997Z caller=log.go:168 level=info msg="Re-opening moved/deleted file /var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-qbshr_3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/0.log ..."
+ts=2024-08-22T18:34:51.977470012Z caller=log.go:168 level=info msg="Waiting for /var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-qbshr_3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/0.log to appear..."
+level=info ts=2024-08-22T18:34:55.226920555Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/containers
+level=info ts=2024-08-22T18:34:55.226948597Z caller=filetarget.go:389 msg="failed to tail file" error="file is a directory" filename=/var/log/pods
+level=info ts=2024-08-22T18:34:55.241251055Z caller=filetargetmanager.go:408 msg="Removing target" key="/var/log/pods/*3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/*.log:{app=\"docker-registry\", container=\"docker-registry\", job=\"zarf/docker-registry\", namespace=\"zarf\", node_name=\"k3d-uds-server-0\", pod=\"zarf-docker-registry-5bdb47fb66-qbshr\"}"
+level=info ts=2024-08-22T18:34:55.24127643Z caller=tailer.go:207 component=tailer msg="skipping update of position for a file which does not currently exist" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-qbshr_3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/0.log
+level=info ts=2024-08-22T18:34:55.241299805Z caller=tailer.go:164 component=tailer msg="tail routine: tail channel closed, stopping tailer" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-qbshr_3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/0.log reason=null
+level=info ts=2024-08-22T18:34:55.241312847Z caller=tailer.go:155 component=tailer msg="tail routine: exited" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-qbshr_3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/0.log
+level=info ts=2024-08-22T18:34:55.241329555Z caller=tailer.go:118 component=tailer msg="position timer: exited" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-qbshr_3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/0.log
+level=info ts=2024-08-22T18:34:55.241349555Z caller=tailer.go:245 component=tailer msg="stopped tailing file" path=/var/log/pods/zarf_zarf-docker-registry-5bdb47fb66-qbshr_3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/0.log
+level=info ts=2024-08-22T18:34:55.241381472Z caller=filetarget.go:201 msg="filetarget: watcher closed, tailer stopped, positions saved" path=/var/log/pods/*3c8a1baa-07cd-493b-b9ec-4785a56728ee/docker-registry/*.log
+-----------------------
+Logs for uds-dev-stack/ensure-machine-id-dpmwz:
+-----------------------
+Logs for uds-dev-stack/local-path-provisioner-8f88fd45c-kcsvq:
+-----------------------
+Logs for uds-dev-stack/metallb-controller-6b7f78f78d-nh5d7:
+-----------------------
+Logs for uds-dev-stack/metallb-speaker-f7x9f:
+{"caller":"service_controller.go:64","controller":"ServiceReconciler","level":"info","start reconcile":"zarf/zarf-docker-registry","ts":"2024-08-22T18:33:51Z"}
+{"caller":"service_controller.go:115","controller":"ServiceReconciler","end reconcile":"zarf/zarf-docker-registry","level":"info","ts":"2024-08-22T18:33:51Z"}
+{"caller":"service_controller.go:64","controller":"ServiceReconciler","level":"info","start reconcile":"zarf/zarf-docker-registry","ts":"2024-08-22T18:33:51Z"}
+{"caller":"service_controller.go:115","controller":"ServiceReconciler","end reconcile":"zarf/zarf-docker-registry","level":"info","ts":"2024-08-22T18:33:51Z"}
+{"caller":"service_controller.go:64","controller":"ServiceReconciler","level":"info","start reconcile":"zarf/zarf-docker-registry","ts":"2024-08-22T18:34:51Z"}
+{"caller":"service_controller.go:115","controller":"ServiceReconciler","end reconcile":"zarf/zarf-docker-registry","level":"info","ts":"2024-08-22T18:34:51Z"}
+{"caller":"service_controller.go:64","controller":"ServiceReconciler","level":"info","start reconcile":"zarf/zarf-docker-registry","ts":"2024-08-22T18:34:51Z"}
+{"caller":"service_controller.go:115","controller":"ServiceReconciler","end reconcile":"zarf/zarf-docker-registry","level":"info","ts":"2024-08-22T18:34:51Z"}
+-----------------------
+Logs for uds-dev-stack/minio-58f77b59c9-22x5q:
+-----------------------
+Logs for uds-dev-stack/nginx-nkgvx:
+-----------------------
+Logs for velero/velero-86c79f87cc-jkdhv:
+time="2024-08-22T18:33:49Z" level=info msg="Validating BackupStorageLocation" backup-storage-location=velero/default controller=backup-storage-location logSource="pkg/controller/backup_storage_location_controller.go:141"
+time="2024-08-22T18:33:49Z" level=info msg="BackupStorageLocations is valid, marking as available" backup-storage-location=velero/default controller=backup-storage-location logSource="pkg/controller/backup_storage_location_controller.go:126"
+time="2024-08-22T18:33:49Z" level=info msg="plugin process exited" backup-storage-location=velero/default cmd=/plugins/velero-plugin-for-aws controller=backup-storage-location id=102 logSource="pkg/plugin/clientmgmt/process/logrus_adapter.go:80" plugin=/plugins/velero-plugin-for-aws
+time="2024-08-22T18:33:49Z" level=info msg="plugin process exited" backupLocation=velero/default cmd=/plugins/velero-plugin-for-aws controller=backup-sync id=97 logSource="pkg/plugin/clientmgmt/process/logrus_adapter.go:80" plugin=/plugins/velero-plugin-for-aws
+time="2024-08-22T18:34:49Z" level=info msg="plugin process exited" backupLocation=velero/default cmd=/plugins/velero-plugin-for-aws controller=backup-sync id=116 logSource="pkg/plugin/clientmgmt/process/logrus_adapter.go:80" plugin=/plugins/velero-plugin-for-aws
+time="2024-08-22T18:34:49Z" level=info msg="Validating BackupStorageLocation" backup-storage-location=velero/default controller=backup-storage-location logSource="pkg/controller/backup_storage_location_controller.go:141"
+time="2024-08-22T18:34:49Z" level=info msg="BackupStorageLocations is valid, marking as available" backup-storage-location=velero/default controller=backup-storage-location logSource="pkg/controller/backup_storage_location_controller.go:126"
+time="2024-08-22T18:34:49Z" level=info msg="plugin process exited" backup-storage-location=velero/default cmd=/plugins/velero-plugin-for-aws controller=backup-storage-location id=127 logSource="pkg/plugin/clientmgmt/process/logrus_adapter.go:80" plugin=/plugins/velero-plugin-for-aws
+-----------------------
+Logs for zarf/agent-hook-79796948fb-s72fd:
+-----------------------
+Logs for zarf/agent-hook-79796948fb-tdcpf:
+-----------------------
+Logs for zarf/zarf-docker-registry-5bdb47fb66-48wht:
+10.42.0.1 - - [22/Aug/2024:18:33:09 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:09 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:19 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:19 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:29 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:29 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:39 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:39 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:49 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:49 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:59 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:59 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:09 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:09 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:19 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:19 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:29 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:29 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:39 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:39 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:49 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:49 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:59 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:59 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+-----------------------
+Logs for zarf/zarf-docker-registry-5bdb47fb66-v92k6:
+10.42.0.1 - - [22/Aug/2024:18:33:06 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:06 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:16 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:16 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:26 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:26 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:36 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:36 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:46 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:46 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:56 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:33:56 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:06 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:06 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:16 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:16 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:26 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:26 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:36 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:36 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+time="2024-08-22T18:34:36.585704879Z" level=info msg="PurgeUploads starting: olderThan=2024-08-15 18:34:36.585166046 +0000 UTC m=-604439.994942710, actuallyDelete=true" 
+time="2024-08-22T18:34:36.598217713Z" level=info msg="Purge uploads finished.  Num deleted=0, num errors=0" 
+time="2024-08-22T18:34:36.598266921Z" level=info msg="Starting upload purge in 24h0m0s" go.version=go1.20.8 instance.id=4f97271d-c805-48b9-b172-a2de642f2578 service=registry version=2.8.3 
+10.42.0.1 - - [22/Aug/2024:18:34:46 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:46 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:56 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+10.42.0.1 - - [22/Aug/2024:18:34:56 +0000] "GET / HTTP/1.1" 200 0 "" "kube-probe/1.29"
+-----------------------

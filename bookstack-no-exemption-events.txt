@@ -1,0 +1,61 @@
+LAST SEEN   TYPE      REASON                  OBJECT                                     MESSAGE
+87s         Normal    Scheduled               pod/bookstack-bookstack-bc6cb49db-dgpv5    Successfully assigned bookstack/bookstack-bookstack-bc6cb49db-dgpv5 to k3d-uds-server-0
+45s         Normal    Pulling                 pod/bookstack-bookstack-bc6cb49db-dgpv5    Pulling image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595"
+87s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-dgpv5    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 76ms (76ms including waiting)
+45s         Normal    Created                 pod/bookstack-bookstack-bc6cb49db-dgpv5    Created container volume-init
+45s         Normal    Started                 pod/bookstack-bookstack-bc6cb49db-dgpv5    Started container volume-init
+86s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-dgpv5    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 84ms (84ms including waiting)
+7s          Warning   BackOff                 pod/bookstack-bookstack-bc6cb49db-dgpv5    Back-off restarting failed container volume-init in pod bookstack-bookstack-bc6cb49db-dgpv5_bookstack(adbb1471-ae65-4ebd-a971-24f276972184)
+70s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-dgpv5    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 88ms (88ms including waiting)
+45s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-dgpv5    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 85ms (85ms including waiting)
+3m8s        Normal    Scheduled               pod/bookstack-bookstack-bc6cb49db-khz52    Successfully assigned bookstack/bookstack-bookstack-bc6cb49db-khz52 to k3d-uds-server-0
+97s         Normal    Pulling                 pod/bookstack-bookstack-bc6cb49db-khz52    Pulling image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595"
+3m8s        Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-khz52    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 72ms (72ms including waiting)
+2m28s       Normal    Created                 pod/bookstack-bookstack-bc6cb49db-khz52    Created container volume-init
+2m28s       Normal    Started                 pod/bookstack-bookstack-bc6cb49db-khz52    Started container volume-init
+111s        Warning   BackOff                 pod/bookstack-bookstack-bc6cb49db-khz52    Back-off restarting failed container volume-init in pod bookstack-bookstack-bc6cb49db-khz52_bookstack(f52cbebc-6a2d-49ef-b11e-d118d1ad119c)
+2m54s       Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-khz52    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 73ms (73ms including waiting)
+2m28s       Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-khz52    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 81ms (81ms including waiting)
+97s         Normal    Pulled                  pod/bookstack-bookstack-bc6cb49db-khz52    Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 70ms (70ms including waiting)
+3m13s       Normal    SuccessfulCreate        replicaset/bookstack-bookstack-bc6cb49db   Created pod: bookstack-bookstack-bc6cb49db-khz52
+88s         Normal    SuccessfulCreate        replicaset/bookstack-bookstack-bc6cb49db   Created pod: bookstack-bookstack-bc6cb49db-dgpv5
+3m13s       Normal    ScalingReplicaSet       deployment/bookstack-bookstack             Scaled up replica set bookstack-bookstack-bc6cb49db to 1
+87s         Normal    Scheduled               pod/bookstack-mysql-56b8665b6-gq68v        Successfully assigned bookstack/bookstack-mysql-56b8665b6-gq68v to k3d-uds-server-0
+88s         Normal    Pulling                 pod/bookstack-mysql-56b8665b6-gq68v        Pulling image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595"
+87s         Normal    Pulled                  pod/bookstack-mysql-56b8665b6-gq68v        Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 74ms (74ms including waiting)
+87s         Normal    Created                 pod/bookstack-mysql-56b8665b6-gq68v        Created container bookstack-mysql-init
+87s         Normal    Started                 pod/bookstack-mysql-56b8665b6-gq68v        Started container bookstack-mysql-init
+86s         Normal    Pulled                  pod/bookstack-mysql-56b8665b6-gq68v        Container image "127.0.0.1:31999/istio/proxyv2:1.22.3-distroless" already present on machine
+86s         Normal    Created                 pod/bookstack-mysql-56b8665b6-gq68v        Created container istio-init
+86s         Normal    Started                 pod/bookstack-mysql-56b8665b6-gq68v        Started container istio-init
+85s         Normal    Pulled                  pod/bookstack-mysql-56b8665b6-gq68v        Container image "127.0.0.1:31999/istio/proxyv2:1.22.3-distroless" already present on machine
+85s         Normal    Created                 pod/bookstack-mysql-56b8665b6-gq68v        Created container istio-proxy
+85s         Normal    Started                 pod/bookstack-mysql-56b8665b6-gq68v        Started container istio-proxy
+85s         Normal    Pulled                  pod/bookstack-mysql-56b8665b6-gq68v        Container image "127.0.0.1:31999/library/mariadb:11.4.2-ubi9-zarf-1613267608" already present on machine
+85s         Normal    Created                 pod/bookstack-mysql-56b8665b6-gq68v        Created container bookstack-mysql
+85s         Normal    Started                 pod/bookstack-mysql-56b8665b6-gq68v        Started container bookstack-mysql
+3m8s        Normal    Scheduled               pod/bookstack-mysql-56b8665b6-vvsbm        Successfully assigned bookstack/bookstack-mysql-56b8665b6-vvsbm to k3d-uds-server-0
+3m9s        Normal    Pulling                 pod/bookstack-mysql-56b8665b6-vvsbm        Pulling image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595"
+3m9s        Normal    Pulled                  pod/bookstack-mysql-56b8665b6-vvsbm        Successfully pulled image "127.0.0.1:31999/library/busybox:latest-zarf-2140033595" in 71ms (71ms including waiting)
+3m9s        Normal    Created                 pod/bookstack-mysql-56b8665b6-vvsbm        Created container bookstack-mysql-init
+3m9s        Normal    Started                 pod/bookstack-mysql-56b8665b6-vvsbm        Started container bookstack-mysql-init
+3m8s        Normal    Pulling                 pod/bookstack-mysql-56b8665b6-vvsbm        Pulling image "127.0.0.1:31999/library/mariadb:11.4.2-ubi9-zarf-1613267608"
+3m6s        Normal    Pulled                  pod/bookstack-mysql-56b8665b6-vvsbm        Successfully pulled image "127.0.0.1:31999/library/mariadb:11.4.2-ubi9-zarf-1613267608" in 1.869s (1.869s including waiting)
+3m6s        Normal    Created                 pod/bookstack-mysql-56b8665b6-vvsbm        Created container bookstack-mysql
+3m6s        Normal    Started                 pod/bookstack-mysql-56b8665b6-vvsbm        Started container bookstack-mysql
+88s         Normal    Killing                 pod/bookstack-mysql-56b8665b6-vvsbm        Stopping container bookstack-mysql
+3m13s       Normal    SuccessfulCreate        replicaset/bookstack-mysql-56b8665b6       Created pod: bookstack-mysql-56b8665b6-vvsbm
+88s         Normal    SuccessfulCreate        replicaset/bookstack-mysql-56b8665b6       Created pod: bookstack-mysql-56b8665b6-gq68v
+3m13s       Normal    WaitForFirstConsumer    persistentvolumeclaim/bookstack-mysql      waiting for first consumer to be created before binding
+3m13s       Normal    ScalingReplicaSet       deployment/bookstack-mysql                 Scaled up replica set bookstack-mysql-56b8665b6 to 1
+3m13s       Normal    ExternalProvisioning    persistentvolumeclaim/bookstack-mysql      Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+3m13s       Normal    Provisioning            persistentvolumeclaim/bookstack-mysql      External provisioner is provisioning volume for claim "bookstack/bookstack-mysql"
+3m10s       Normal    ProvisioningSucceeded   persistentvolumeclaim/bookstack-mysql      Successfully provisioned volume pvc-cfe976f2-c798-42c5-8e21-2410f79d9589
+3m13s       Normal    WaitForFirstConsumer    persistentvolumeclaim/bookstack-storage    waiting for first consumer to be created before binding
+3m13s       Normal    ExternalProvisioning    persistentvolumeclaim/bookstack-storage    Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+3m13s       Normal    Provisioning            persistentvolumeclaim/bookstack-storage    External provisioner is provisioning volume for claim "bookstack/bookstack-storage"
+3m10s       Normal    ProvisioningSucceeded   persistentvolumeclaim/bookstack-storage    Successfully provisioned volume pvc-703b2aa5-820a-4ea6-84fe-2219f882c485
+3m13s       Normal    WaitForFirstConsumer    persistentvolumeclaim/bookstack-uploads    waiting for first consumer to be created before binding
+3m13s       Normal    ExternalProvisioning    persistentvolumeclaim/bookstack-uploads    Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+3m13s       Normal    Provisioning            persistentvolumeclaim/bookstack-uploads    External provisioner is provisioning volume for claim "bookstack/bookstack-uploads"
+3m9s        Normal    ProvisioningSucceeded   persistentvolumeclaim/bookstack-uploads    Successfully provisioned volume pvc-9a890319-706d-4db0-8e1c-c86da63ad9f7

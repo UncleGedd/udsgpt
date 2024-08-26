@@ -1,0 +1,30 @@
+-A ISTIO_OUTPUT -m owner --uid-owner 1337 -j RETURN
+-A ISTIO_OUTPUT ! -d 127.0.0.1/32 -o lo -p tcp -m tcp ! --dport 15008 -m owner --gid-owner 1337 -j ISTIO_IN_REDIRECT
+-A ISTIO_OUTPUT -o lo -m owner ! --gid-owner 1337 -j RETURN
+-A ISTIO_OUTPUT -m owner --gid-owner 1337 -j RETURN
+-A ISTIO_OUTPUT -d 127.0.0.1/32 -j RETURN
+-A ISTIO_OUTPUT -j ISTIO_REDIRECT
+-A ISTIO_REDIRECT -p tcp -j REDIRECT --to-ports 15001
+COMMIT
+# Completed on Fri Aug 23 17:12:22 2024
+
+2024-08-23T17:12:23.218051Z	info	cache	Root cert has changed, start rotating root cert
+2024-08-23T17:12:23.218060Z	info	ads	XDS: Incremental Pushing ConnectedEndpoints:2 Version:
+2024-08-23T17:12:23.218110Z	info	cache	returned workload trust anchor from cache	ttl=23h59m59.781891406s
+2024-08-23T17:12:23.218126Z	info	cache	returned workload certificate from cache	ttl=23h59m59.781874406s
+2024-08-23T17:12:23.218295Z	info	ads	SDS: PUSH request for node:bookstack-bookstack-bc6cb49db-kx6lg.bookstack resources:1 size:4.0kB resource:default
+2024-08-23T17:12:23.218311Z	info	cache	returned workload trust anchor from cache	ttl=23h59m59.781689073s
+2024-08-23T17:12:23.218373Z	info	ads	SDS: PUSH request for node:bookstack-bookstack-bc6cb49db-kx6lg.bookstack resources:1 size:1.1kB resource:ROOTCA
+2024-08-23T17:12:23.218406Z	info	cache	returned workload trust anchor from cache	ttl=23h59m59.78159399s
+2024-08-23T17:12:23.610991Z	info	Readiness succeeded in 529.145834ms
+2024-08-23T17:12:23.611549Z	info	Envoy proxy is ready
+docker exec -it bookstack php /app/www/artisan bookstack:update-url https://example.com https://bookstack.uds.dev
+************************************************************************
+Waiting for DB to be available
+nc: getaddrinfo for host "bookstack-mysql" port 3306: Name does not resolve
+nc: getaddrinfo for host "bookstack-mysql" port 3306: Name does not resolve
+nc: getaddrinfo for host "bookstack-mysql" port 3306: Name does not resolve
+nc: getaddrinfo for host "bookstack-mysql" port 3306: Name does not resolve
+nc: getaddrinfo for host "bookstack-mysql" port 3306: Name does not resolve
+nc: getaddrinfo for host "bookstack-mysql" port 3306: Name does not resolve
+nc: getaddrinfo for host "bookstack-mysql" port 3306: Name does not resolve
